@@ -29,16 +29,16 @@ const PaginaInicial = () => {
             <TituloCurso>Qual curso você gostaría de conhecer?</TituloCurso>
             <SubTituloCurso>Click no curso desejado e conheça mais.</SubTituloCurso>
             <SectionCursos1>
-                <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons1Img src={IconMaquina} /></Link>
+                <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons1Img className="cursos" src={IconMaquina} /></Link>
                 
-                <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons1Img src={IconFerramentas} /></Link>
+                <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons1Img className="cursos"  src={IconFerramentas} /></Link>
 
-                <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons1Img src={IconCaixa} /></Link>
+                <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons1Img className="cursos"  src={IconCaixa} /></Link>
             </SectionCursos1>
             <SectionCursos2>
-                <Icons2Img src={IconCaixaPapel} />
-                <Icons2Img src={IconPlanilha} />
-                <Icons2Img src={IconCertificado} />
+            <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons2Img className="cursos"  src={IconCaixaPapel} /></Link>
+            <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons2Img className="cursos"  src={IconPlanilha} /></Link>
+            <Link href="https://www.youtube.com/watch?v=4W6T0ob3cqo&list=PL5_OTU1_MgWt8Ut_oCecZ98FFYapfSxs0"><Icons2Img className="cursos"  src={IconCertificado} /></Link>
             </SectionCursos2>
             <ContainerQuemSomos>
                 <TituloQuemSomos>QUEM SOMOS?</TituloQuemSomos>
@@ -57,7 +57,6 @@ const PaginaInicial = () => {
                     </ContainerTexto2>
                 </ContainerTextos>
             </ContainerQuemSomos>
-            <div className="a">
                 <ContainerMaior>
                 <Cards>
                     <ImgCard src={Card1} />
@@ -68,7 +67,7 @@ const PaginaInicial = () => {
                 {/* <ContainerMenor>
                 </ContainerMenor> */}
 
-            </div>
+            
            
            
 

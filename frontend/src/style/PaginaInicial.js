@@ -47,7 +47,6 @@ export const ButtonCadastro = styled.button`
 export const SectionCursos1 = styled.section`
     display: flex;
     justify-content: center;
-    margin: 8px 0px 60px;
 `
 
 export const TituloCurso = styled.h1`
@@ -63,26 +62,25 @@ export const SubTituloCurso = styled.h1`
     font-size: 14px;
     color: #000000;
     margin: 0px;
-    text-decoration: underline;
     padding-left: 160px;
     padding-top: 3px;
+    border-bottom: #000000 solid 2px;
 `
 
 export const Icons1Img = styled.img` 
-    width: 40%;
-    height: 40%;
+    width: 100%;
+    height: 50%;
     margin: 50px;
     box-shadow: 15px 12px 20px -6px rgba(0,0,0,0.59);
-    &:hover{
-        transform: scale(1.5s);
-    }
+    position: relative;
 `
 
 export const Icons2Img = styled.img`
-    width: 20%;
-    height: 20%;
+    width: 110%;
+    height: 50%;
     margin: 50px;
     box-shadow: 15px 12px 20px -6px rgba(0,0,0,0.59);
+    position: relative;
 `
 
 export const SectionCursos2 = styled.section`
@@ -94,7 +92,7 @@ export const ContainerQuemSomos = styled.div`
     background-color: #0A1626;
     width: 80%;
     height: 40%;
-    margin-left: 100px;
+    margin-left: 150px;
     border-radius: 60px 0px 60px 0px;
 `
 
@@ -126,12 +124,9 @@ export const ContainerTextos = styled.div`
 `
 
 export const ContainerMaior = styled.div`
-    width: 1000px;
     height: 400px;
     background-color: #0A1626;
-    position: relative;
-    margin-top: 100px;
-
+    top: 300px;
 `
 
 // export const ContainerMenor = styled.div`
@@ -147,19 +142,23 @@ export const ContainerMaior = styled.div`
 // `
 
 export const Cards = styled.div`
-width: 80%;
+width: 100%;
 top: 300px;
-position: absolute;
 display: flex;
+justify-content: space-around;
+padding: 100px 0px 0px;
+margin-top: 100px;
 `
 
 export const ImgCard = styled.img`
     width: 20%;
     height: 20%;
+
 `
 
 
 export const Link = styled.a`
-
-    display: inline-table;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
 `

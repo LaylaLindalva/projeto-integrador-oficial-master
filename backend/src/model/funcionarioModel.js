@@ -1,8 +1,8 @@
-import conn from "../config/conn";
+import conn from "../config/conn.js";
 import { DataTypes } from "sequelize";
 
 
-const Colaborador = conn.define("colaborador", {
+const Funcionario = conn.define("funcionarios", {
     nome: {
         type: DataTypes.STRING,
         allowNull: false
@@ -19,24 +19,24 @@ const Colaborador = conn.define("colaborador", {
         type: DataTypes.STRING,
         allowNull: false
     }, 
-    status: {
+    status_curso: {
         type: DataTypes.ENUM,
-        values: ["pendente", "concluida"],
+        values: ["pendente", "cursando", "concluida"],
         defaultValue: 'pendente'
     },
     treinamento: {
         type: DataTypes.STRING,
         allowNull: false
     },
-    dataInicio: {
-        type: DataTypes.DATE,
+    data_inicio: {
+        type: DataTypes.STRING,
         allowNull: false
     },
-    dataTermino: {
-        type: DataTypes.DATE,
+    data_conclusao: {
+        type: DataTypes.STRING,
         allowNull: false
     }
 }) 
 
 
-export default Colaborador;
+export default Funcionario;

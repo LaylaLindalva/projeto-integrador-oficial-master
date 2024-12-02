@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./components/Header.jsx";
-import PaginaInicial from "./components/PaginaInicial.jsx";
+import Header from "../components/Header.jsx";
+import PaginaInicial from "../components/PaginaInicial.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import PaginaDoColaborador from "./components/PaginaDoColaborador.jsx";
-import RelatorioDeBusca from "./components/RelatorioDeBusca.jsx";
-import Footer from "./components/Footer.jsx";
+import PaginaDoColaborador from "../components/PaginaDoColaborador.jsx";
+import RelatorioDeBusca from "../components/RelatorioDeBusca.jsx";
+import Footer from "../components/Footer.jsx";
 
 const App = () => {
     return(
@@ -16,8 +16,8 @@ const App = () => {
             <Route path="/paginaDoColaborador" element={<PaginaDoColaborador/>}/>
             <Route path="/relatorioDeBusca" element={<RelatorioDeBusca/>}/>
         </Routes>
+        </BrowserRouter>  
         <Footer/>
-        </BrowserRouter>
         </>
     )
 }

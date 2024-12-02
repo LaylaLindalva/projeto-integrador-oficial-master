@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 export const FooterMain = styled.footer`
     width: 100%;
-    position: absolute;
     bottom: 0;
     left: 0;
+    height: 80ph;
+    margin-top: 60px
 `
 
 export const Div01 = styled.div`
